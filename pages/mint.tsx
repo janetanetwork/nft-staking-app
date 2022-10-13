@@ -30,7 +30,7 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}PIXIEVERSE NFT!</h1>
+      <h1 className={styles.h1}>PIXIEVERSE NFT!</h1>
 
       <p className={styles.explain}>
         The PixieVerse NFTs are 10,000 uniquely generated characters. No two are exactly alike, and each one of them can be officially owned by a single person on the Polygon blockchain.
