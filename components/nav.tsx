@@ -1,4 +1,4 @@
-import { faGithub, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import Image from "next/image";
@@ -16,17 +16,17 @@ const NavBar = (
           <ul>
             <li className="inline ml-5 mt-5">
               <Link href="https://github.com/realstealthninja">
-                <FontAwesomeIcon icon={faGithub} size="lg" />
+                
               </Link>
             </li>
             <li className="inline ml-5 mt-5">
               <Link href="https://www.instagram.com/realstealthninja/">
-              <FontAwesomeIcon icon={faInstagram} size="lg" />
+              
               </Link>
             </li>
             <li className="inline ml-5 mt-5">
               <Link href="https://www.youtube.com/channel/UCRBu1hybrrioa8hZc5_Ggig">
-                <FontAwesomeIcon icon={faYoutube} size="lg" />
+                
               </Link>
             </li>
             <li className="inline-block ml-5 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
