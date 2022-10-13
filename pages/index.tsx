@@ -1,14 +1,18 @@
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
+import NavBar from "../components/nav";
 
 const Home: NextPage = () => {
   const router = useRouter();
+  
 
   return (
-    
+    <div>
+      <NavBar />
                    
     <div className={styles.container}>
+      
       {/* Top Section */}
       <h1 className={styles.h1}>WELCOME TO
 THE PIXIEVERSE NFT</h1>
@@ -41,6 +45,7 @@ Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the off
         </div>
       </div>
     </div>
+      </div>
   );
 };
 
