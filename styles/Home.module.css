@@ -361,7 +361,7 @@
 .optionSelectBoxs {
   border-radius: 16px;
   border: 1px solid #ccc;
-  width: 10%;
+  width: 100%;
   min-height: 20px;
   height: 20%;
   display: flex;
@@ -371,6 +371,12 @@
   padding-left: 12px;
   padding-right: 12px;
   cursor: pointer;
+  margin
+}
+.selectBoxTitles {
+  font-size: 30px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 
