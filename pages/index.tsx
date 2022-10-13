@@ -20,7 +20,8 @@ THE PIXIEVERSE NFT</h1>
             <img src={`/icons/drop.webp`} alt="drop" />
             <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
             <p className={styles.selectBoxDescription}>
-              Use the NFT Drop Contract to claim an NFT from the collection.
+              The PixieVerse NFTs are 10,000 uniquely generated characters. No two are exactly alike, and each one of them can be officially owned by a single person on the Polygon blockchain,
+Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the official currency for the Pixie Ecosystem, which will consist of numerous beneficial DAPPS. .
             </p>
         </div>
 
