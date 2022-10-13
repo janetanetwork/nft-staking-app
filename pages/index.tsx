@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   const router = useRouter();
 
   return (
-    <Navbar/>
+    <NavBar />
                         
     <div className={styles.container}>
       {/* Top Section */}
