@@ -119,15 +119,7 @@ const Stake: NextPage = () => {
             
         </div>
       <p></p>
-      <div
-          className={styles.optionSelectBoxs}
-          role="button"
-          onClick={() => router.push(`/stake`)}
-        >
-          {/* Staking an NFT */}
-          <h2 className={styles.selectBoxTitles}>Stake Your NFTs</h2>
-          
-        </div>
+      
       <h1 className={styles.h1}>Stake Your NFTs</h1>
 
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
