@@ -6,29 +6,7 @@ const Home: NextPage = () => {
   const router = useRouter();
 
   return (
-    <nav className={navbar}>
-      <div className={navbar-container}>
-        <div className={navbar-brand}>
-          <a href="#">
-            <h1>PIXIEVERSE</h1>
-          </a>
-        </div>
-          
-          <ul className={navbar-nav-left}>
-          <li>
-            <a href="#">Mint</a>
-          </li>
-          <li>
-            <a href="#">Stake</a>
-          </li>
-        </ul>
-          
-          <ul className={navbar-nav-right}>
-          <li><button className={btn}>Mint</button></li>
-          <li><button className={btn}>Road Map</button></li>
-        </ul>
-      </div>
-    </nav>
+ 
                         
     <div className={styles.container}>
       {/* Top Section */}
