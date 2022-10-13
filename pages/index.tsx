@@ -8,7 +8,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
-      <h1 className={styles.h1}>thirdweb Deploy - Custom Staking Contract</h1>
+      <h1 className={styles.h1}>WELCOME TO
+THE PIXIEVERSE NFT</h1>
       <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
@@ -19,7 +20,8 @@ const Home: NextPage = () => {
             <img src={`/icons/drop.webp`} alt="drop" />
             <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
             <p className={styles.selectBoxDescription}>
-              Use the NFT Drop Contract to claim an NFT from the collection.
+            The PixieVerse NFTs are 10,000 uniquely generated characters. No two are exactly alike, and each one of them can be officially owned by a single person on the Polygon blockchain,
+Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the official currency for the Pixie Ecosystem, which will consist of numerous beneficial DAPPS. 
             </p>
         </div>
 
@@ -32,8 +34,7 @@ const Home: NextPage = () => {
           <img src={`/icons/token.webp`} alt="drop" />
           <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
           <p className={styles.selectBoxDescription}>
-            Use the custom staking contract deployed via <b>thirdweb Deploy</b>{" "}
-            to stake your NFTs, and earn tokens from the <b>Token</b> contract.
+            Stake your NFTS to earn the official PIXIECOIN Token, which will be used as the official currency on our ecosystem which include our DAPPS and DEX platform.
           </p>
         </div>
       </div>

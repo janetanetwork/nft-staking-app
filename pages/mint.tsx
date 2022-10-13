@@ -80,7 +80,11 @@ const myNftDropContractAddress = "0x0cBF1C44bc8591fc811Ad24aB27603581796800A";
             src={contractMetadata?.image}
             alt={`${contractMetadata?.name} preview image`}
           />
-      <p className={styles.explain}>{contractMetadata?.description}
+      <p className={styles.explain}>The PixieVerse NFTs are 10,000 uniquely generated characters. No two are exactly alike, and each one of them can be officially owned by a single person on the Polygon blockchain.
+
+      The Punks are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. (See Record and Proof.) Purchasing an ape costs 28 MATIC.
+      
+      To access members-only areas such as THE PIXIEVERSE DAO, PUNKSHOLDERS will need to be signed into their Metamask Wallet.
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
