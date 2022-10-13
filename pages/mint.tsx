@@ -70,7 +70,7 @@ const myNftDropContractAddress = "0x0cBF1C44bc8591fc811Ad24aB27603581796800A";
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Mint An NFT!</h1>
+      <h1 className={styles.h1}>{contractMetadata?.name}</h1>
 
       <p className={styles.explain}>
         Here is where we use our <b>NFT Drop</b> contract to allow users to mint
