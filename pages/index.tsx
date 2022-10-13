@@ -29,7 +29,6 @@ const Home: NextPage = () => {
         </ul>
       </div>
     </nav>
-    </div>
                         
     <div className={styles.container}>
       {/* Top Section */}
