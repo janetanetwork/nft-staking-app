@@ -108,6 +108,25 @@ const Stake: NextPage = () => {
 
   return (
     <div className={styles.container}>
+      <div
+          className={styles.optionSelectBoxs}
+          role="button"
+          onClick={() => router.push(`/mint`)}
+        >
+          {/* Mint a new NFT */}
+            <h2 className={styles.selectBoxTitles}>Minting Page</h2>
+            
+        </div>
+      <p></p>
+      <div
+          className={styles.optionSelectBoxs}
+          role="button"
+          onClick={() => router.push(`/stake`)}
+        >
+          {/* Staking an NFT */}
+          <h2 className={styles.selectBoxTitles}>Stake Your NFTs</h2>
+          
+        </div>
       <h1 className={styles.h1}>Stake Your NFTs</h1>
 
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
