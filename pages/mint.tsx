@@ -30,12 +30,14 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Mint An NFT!</h1>
+      <h1 className={styles.h1}PIXIEVERSE NFT!</h1>
 
       <p className={styles.explain}>
-        Here is where we use our <b>NFT Drop</b> contract to allow users to mint
-        one of the NFTs that we lazy minted.
-      </p>
+        The PixieVerse NFTs are 10,000 uniquely generated characters. No two are exactly alike, and each one of them can be officially owned by a single person on the Polygon blockchain.
+        <br><br>The Pixies are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. Purchasing an ape costs 28 MATIC.
+      <br><br>
+        To access members-only areas such as THE PIXIEVERSE DAO, Pixieholders will need to be signed into their Metamask Wallet.
+          </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
       {!address ? (
