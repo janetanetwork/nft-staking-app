@@ -37,7 +37,7 @@ body {
   display: flex;
   margin: 0;
   text-align: center;
-  background-image: url('photo.png');
+  background-image: url('/photo.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
