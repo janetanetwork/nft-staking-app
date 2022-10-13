@@ -30,8 +30,18 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
+      <div
+          className={styles.optionSelectBox}
+          role="button"
+          onClick={() => router.push(`/mint`)}
+        >
+          {/* Mint a new NFT */}
+            <img src={`/icons/drop.webp`} alt="drop" />
+            <h2 className={styles.selectBoxTitle}>Minting Page</h2>
+            
+        </div>
       <h1 className={styles.h1}>PIXIEVERSE NFT!</h1>
-
+     
       <p className={styles.explain}>
         The PixieVerse NFTs are 10,000 uniquely generated characters. No two are exactly alike, and each one of them can be officially owned by a single person on the Polygon blockchain.
         The Pixies are stored as ERC-721 tokens on the Polygon blockchain and hosted on IPFS. Purchasing an ape costs 28 MATIC.
