@@ -31,7 +31,7 @@ const Mint: NextPage = () => {
   return (
     <div className={styles.container}>
       <div
-          className={styles.optionSelectBox}
+          className={styles.optionSelectBoxs}
           role="button"
           onClick={() => router.push(`/mint`)}
         >
@@ -39,6 +39,16 @@ const Mint: NextPage = () => {
             <img src={`/icons/drop.webp`} alt="drop" />
             <h2 className={styles.selectBoxTitle}>Minting Page</h2>
             
+        </div>
+      <div
+          className={styles.optionSelectBoxs}
+          role="button"
+          onClick={() => router.push(`/stake`)}
+        >
+          {/* Staking an NFT */}
+          <img src={`/icons/token.webp`} alt="drop" />
+          <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
+          
         </div>
       <h1 className={styles.h1}>PIXIEVERSE NFT!</h1>
      
