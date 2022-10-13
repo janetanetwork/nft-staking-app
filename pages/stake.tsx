@@ -22,7 +22,7 @@ const Stake: NextPage = () => {
   // Wallet Connection Hooks
   const address = useAddress();
   const connectWithMetamask = useMetamask();
-
+  const router = useRouter();
   // Contract Hooks
   const nftDropContract = useNFTDrop(nftDropContractAddress);
   const tokenContract = useToken(tokenContractAddress);
