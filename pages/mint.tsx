@@ -39,7 +39,7 @@ const Mint: NextPage = () => {
             <h2 className={styles.selectBoxTitles}>Minting Page</h2>
             
         </div>
-      <br><br>
+      <p></p>
       <div
           className={styles.optionSelectBoxs}
           role="button"
