@@ -24,8 +24,8 @@ const Home: NextPage = () => {
         </ul>
           
           <ul className={navbar-nav-right}>
-          <li><button className={btn btn-dark-outline}>Mint</button></li>
-          <li><button className={btn btn-dark}>Road Map</button></li>
+          <li><button className={btn}>Mint</button></li>
+          <li><button className={btn}>Road Map</button></li>
         </ul>
       </div>
     </nav>
