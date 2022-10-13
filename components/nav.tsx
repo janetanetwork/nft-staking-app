@@ -33,13 +33,10 @@ const NavBar = (
               <Link href="/">home</Link>
             </li>
             <li className="inline-block ml-2 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
-              <Link href="/about">about</Link>
+              <Link href="/mint">Mint</Link>
             </li>
-            <li className="inline-block align-middle text-center ml-5"><h1>{route}</h1 ></li>
-            <li className="inline-block m-5 float-right ">
-              <Link href="/">
-                <Image src="/stealthysmile.png" width="30px" height="10px" />
-              </Link>
+            <li className="inline-block ml-2 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
+              <Link href="/stake">Stake</Link>
             </li>
           </ul>
         </div>
