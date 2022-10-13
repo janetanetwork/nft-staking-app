@@ -36,7 +36,6 @@ const Mint: NextPage = () => {
           onClick={() => router.push(`/mint`)}
         >
           {/* Mint a new NFT */}
-            <img src={`/icons/drop.webp`} alt="drop" />
             <h2 className={styles.selectBoxTitle}>Minting Page</h2>
             
         </div>
@@ -46,7 +45,6 @@ const Mint: NextPage = () => {
           onClick={() => router.push(`/stake`)}
         >
           {/* Staking an NFT */}
-          <img src={`/icons/token.webp`} alt="drop" />
           <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
           
         </div>
