@@ -9,6 +9,7 @@ import {
   useActiveClaimCondition,
   Web3Button,
   useContract,
+  
 }
 
 const Mint: NextPage = () => {
