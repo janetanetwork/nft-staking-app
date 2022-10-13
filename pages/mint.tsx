@@ -71,10 +71,14 @@ const myNftDropContractAddress = "0x0cBF1C44bc8591fc811Ad24aB27603581796800A";
   return (
     <div className={styles.container}>
       <h1 className={styles.h1}>{contractMetadata?.name}</h1>
-
-      <p className={styles.explain}>
-        Here is where we use our <b>NFT Drop</b> contract to allow users to mint
-        one of the NFTs that we lazy minted.
+      <div className={styles.imageSide}>
+          {/* Image Preview of NFTs */}
+          <img
+            className={styles.image}
+            src={contractMetadata?.image}
+            alt={`${contractMetadata?.name} preview image`}
+          />
+      <p className={styles.explain}>{contractMetadata?.description}
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
