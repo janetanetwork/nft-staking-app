@@ -14,7 +14,7 @@ const Home: NextPage = () => {
           </a>
         </div>
           
-          <ul class="navbar-nav-left">
+          <ul className={navbar-nav-left}>
           <li>
             <a href="#">Mint</a>
           </li>
