@@ -12,6 +12,7 @@ import { BigNumber, ethers } from "ethers";
 import type { NextPage } from "next";
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
+import { useRouter } from "next/router";
 
 const nftDropContractAddress = "0x0cBF1C44bc8591fc811Ad24aB27603581796800A";
 const tokenContractAddress = "0xE9C379A72D86008639B0754239B3cA8c552E5730";
