@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
-import NavBar from "../components/nav";
+
 const Home: NextPage = () => {
   const router = useRouter();
 
   return (
     
-        <NavBar />                
+                   
     <div className={styles.container}>
       {/* Top Section */}
       <h1 className={styles.h1}>WELCOME TO
