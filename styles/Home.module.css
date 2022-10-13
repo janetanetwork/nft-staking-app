@@ -228,6 +228,15 @@
   margin-top: 2%;
 }
 
+.collectionContainer {
+  width: 1200px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+
 .h1 {
   margin-bottom: 0px;
 }
@@ -361,7 +370,7 @@
 .optionSelectBoxs {
   border-radius: 16px;
   border: 1px solid #ccc;
-  width: 100%;
+  width: 50%;
   min-height: 20px;
   height: 20%;
   display: flex;
