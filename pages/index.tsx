@@ -35,7 +35,7 @@ const Home: NextPage = () => {
     </div>
                    
     <div className={styles.container}>
-      <section>
+      <section className={styles.grid}>
       <img src={`/gg.gif`} alt="drop" width="50%" height="50%" />
       <div className={styles.text}>
         <h2 className={styles.xl}>About Pixieverse NFT</h2>
