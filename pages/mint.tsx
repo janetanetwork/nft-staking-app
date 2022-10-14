@@ -58,7 +58,7 @@ const Mint: NextPage = () => {
  
     </div>
     <div className={styles.container}>
-      <h1 className={styles.h1}>PIXIEVERSE NFT!</h1>
+      <img src={`/mint.png`} alt="drop" width="100%" height="100%" />
       <div>
         <img src={`/gg.gif`} alt="drop" width="50%" height="50%" /></div>
       <p className={styles.explain}>
