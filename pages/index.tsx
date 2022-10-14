@@ -38,7 +38,7 @@ const Home: NextPage = () => {
       <section>
       <img src={`/gg.gif`} alt="drop" width="50%" height="50%" />
       <div className={styles.text}>
-        <h2 className={styles.xl}>About Pixieverse NFT</h2>
+        <img src={`/welcome.png`} alt="drop" width="50%" height="50%" />
         <p className={styles.textm}>
           10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain. The project that inspired the modern CryptoArt movement.
         </p>
