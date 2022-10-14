@@ -76,27 +76,6 @@ Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the off
         </div>
       </div>
     </div>
-      
-      <footer className={styles.footer}>
-      <div className={styles.footerc}>
-        <div className={styles.social}>
-          <Link href="https://spotify.com">
-            <a> <img src={`/icons/drop.webp`} alt="drop" /></a>
-          </Link>
-          <Link href="https://facebook.com">
-            <a> <img src={`/icons/drop.webp`} alt="drop" /></a>
-          </Link>
-          <Link href="https://instagram.com">
-            <a><img src={`/icons/drop.webp`} alt="drop" /></a>
-          </Link>
-          
-          <Link href="https://twitter.com">
-            <a><img src={`/icons/drop.webp`} alt="drop" /></a>
-          </Link>
-        </div>
-        <p>© 2022 Pixieverse NFT Collection. All rights reserved.</p>
-      </div>
-    </footer>
 
       </div>
   );
