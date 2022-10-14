@@ -46,8 +46,7 @@ const Home: NextPage = () => {
       </div>
     </section>
       {/* Top Section */}
-      <h1 className={styles.rol}>WELCOME TO
-THE PIXIEVERSE NFT</h1>
+      
       <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
