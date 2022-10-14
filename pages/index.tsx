@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         <p className={styles.textm}>
           10,000 unique collectible characters with proof of ownership stored on the Polygon blockchain. The project that inspired the modern CryptoArt movement.
         </p>
-        
+        <img src={`/road.png`} alt="drop" width="100%" height="100%" />
       
     
       {/* Top Section */}
