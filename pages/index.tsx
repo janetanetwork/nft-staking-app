@@ -77,8 +77,8 @@ Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the off
       </div>
     </div>
       
-      <footer class="footer">
-      <div class="footer-container">
+      <footer className={styles.footer}>
+      <div className={styles.footerc}>
         <div class="social">
           <Link href="https://spotify.com">
             <a> <img src={`/icons/drop.webp`} alt="drop" /></a>
