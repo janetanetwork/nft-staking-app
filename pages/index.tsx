@@ -37,8 +37,8 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <section>
       <img src={`/gg.gif`} alt="drop" width="50%" height="50%" />
-        
-        <img src={`/welcome.png`} alt="drop" width="100%" height="100%" />
+        <div>
+          <img src={`/welcome.png`} alt="drop" width="100%" height="100%" /></div>
         <p className={styles.textm}>
           10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain. The project that inspired the modern CryptoArt movement.
         </p>
