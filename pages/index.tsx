@@ -47,10 +47,10 @@ const Home: NextPage = () => {
           <img src={`/pix.png`} alt="drop" width="100%" height="100%" />
         <p className={styles.textm}>
           10,000 unique collectible characters with proof of ownership stored on the Polygon blockchain. The project that inspired the modern CryptoArt movement.
-        </p>
+        </p> <div id="social">
         <img src={`/road.png`} alt="drop" width="100%" height="100%" />
         <img src={`/rop.png`} alt="drop" width="100%" height="100%" />
-    
+      </div>
       {/* Top Section */}
       
       <div className={styles.nftBoxGrid}>
@@ -95,9 +95,9 @@ Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the off
       </div>
       <img src={`/gallery.png`} alt="drop" width="100%" height="100%" />
       <img src={`/photos.png`} alt="drop" width="100%" height="100%" />
+      <div id="social">
       <img src={`/social.png`} alt="drop" width="100%" height="100%" />
-      <img src={`/discord.gif`} alt="drop" width="100%" height="100%" />
-      <img src={`/telegram.gif`} alt="drop" width="100%" height="100%" />
+      </div>
     </div>
     
       </div>
