@@ -28,10 +28,10 @@ const Home: NextPage = () => {
               <Link href="/stake"><a>Stake</a></Link>
             </li>
             <li>
-              <Link href="/stake"><a>Roadmap</a></Link>
+              <Link href="/#road"><a>Roadmap</a></Link>
             </li>
             <li>
-              <Link href="/stake"><a>Social</a></Link>
+              <Link href="/#social"><a>Social</a></Link>
             </li>
           </ul>
         </nav>
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           <img src={`/pix.png`} alt="drop" width="100%" height="100%" />
         <p className={styles.textm}>
           10,000 unique collectible characters with proof of ownership stored on the Polygon blockchain. The project that inspired the modern CryptoArt movement.
-        </p> <div id="social">
+        </p> <div id="road">
         <img src={`/road.png`} alt="drop" width="100%" height="100%" />
         <img src={`/rop.png`} alt="drop" width="100%" height="100%" />
       </div>
@@ -97,6 +97,8 @@ Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the off
       <img src={`/photos.png`} alt="drop" width="100%" height="100%" />
       <div id="social">
       <img src={`/social.png`} alt="drop" width="100%" height="100%" />
+        <Link href="/telegram.com"><a><img src={`/tel.gif`} alt="drop" width="100%" height="100%" /></a></Link>
+         <Link href="/discord.com"><a><img src={`/tel.gif`} alt="drop" width="100%" height="100%" /></a></Link>
       </div>
     </div>
     
