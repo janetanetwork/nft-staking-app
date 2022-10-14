@@ -3,9 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
-import '@fortawesome/fontawesome-svg-core/styles.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFaceRelieved } from '@fortawesome/pro-solid-svg-icons'
+
 
 const Home: NextPage = () => {
   const router = useRouter();
@@ -20,7 +18,7 @@ const Home: NextPage = () => {
         <nav>
           <ul className={styles.nav__links}>
             <li>
-              <FontAwesomeIcon icon={faFaceRelieved} />
+              
               <Link href="/"><a>home</a></Link>
             </li>
             <li>
