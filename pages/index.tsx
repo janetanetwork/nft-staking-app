@@ -40,7 +40,7 @@ const Home: NextPage = () => {
                    
     <div className={styles.container}>
     
-      <img src={`/gg.gif`} alt="drop" width="50%" height="50%" />
+      <img src={`/gg.gif`} alt="drop" width="50%" height="50%" className={styles.radius} />
        
           <img src={`/welcome.png`} alt="drop" width="100%" height="100%" />
         <p className={styles.textm}>
