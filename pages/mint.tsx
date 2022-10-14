@@ -53,26 +53,7 @@ const Mint: NextPage = () => {
         
  
     </div>
-    <div className={styles.container}>
-      <div
-          className={styles.optionSelectBoxs}
-          role="button"
-          onClick={() => router.push(`/mint`)}
-        >
-          {/* Mint a new NFT */}
-            <h2 className={styles.selectBoxTitles}>Minting Page</h2>
-            
-        </div>
-      <p></p>
-      <div
-          className={styles.optionSelectBoxs}
-          role="button"
-          onClick={() => router.push(`/stake`)}
-        >
-          {/* Staking an NFT */}
-          <h2 className={styles.selectBoxTitles}>Stake Your NFTs</h2>
-          
-        </div>
+    
       <h1 className={styles.h1}>PIXIEVERSE NFT!</h1>
       <div>
         <img src={`/gg.gif`} alt="drop" width="50%" height="50%" /></div>
