@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                    
     <div className={styles.container}>
       <section>
-      <img src={`/icons/drop.webp`} alt="drop" />
+      <img src={`/gg.gif`} alt="drop" width="50%" height="50%" />
       <div className={styles.text}>
         <h2 className={styles.xl}>About Pixieverse NFT</h2>
         <p className={styles.textm}>
