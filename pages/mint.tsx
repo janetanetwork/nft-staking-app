@@ -30,7 +30,7 @@ const Mint: NextPage = () => {
   }
 
   return (
-    <div><div>
+    <div>
        <div className={styles.header}>
  
          <h1 className={styles.logo}>Pixieverse</h1>
