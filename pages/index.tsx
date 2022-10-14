@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 
   return (
     <div>
-       <header>
+       <div className={styles.header}>
  
          <h1 className={styles.logo}>Pixieverse</h1>
  
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
  
         
  
-    </header>
+    </div>
                    
     <div className={styles.container}>
       
