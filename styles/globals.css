@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-/* Box sizing rules */
+
 *,
 *::before,
 *::after {
@@ -15,6 +11,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   padding-bottom: 250px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 /* Inherit fonts for inputs and buttons */
