@@ -12,14 +12,14 @@ const Home: NextPage = () => {
   return (
     <div>
        <div>
-          <ul>
-            <li className="inline-block ml-5 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
+          <ul className={styles.roll} >
+            <li>
               <Link href="/"><a>home</a></Link>
             </li>
-            <li className="inline-block ml-2 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
+            <li>
               <Link href="/mint"><a>Mint</a></Link>
             </li>
-            <li className="inline-block ml-2 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
+            <li>
               <Link href="/stake"><a>Stake</a></Link>
             </li>
           </ul>
