@@ -95,6 +95,9 @@ Each NFT can be staked to earn the ERC20 PIXIECOIN which will be used as the off
       </div>
       <img src={`/gallery.png`} alt="drop" width="100%" height="100%" />
       <img src={`/photos.png`} alt="drop" width="100%" height="100%" />
+      <img src={`/social.png`} alt="drop" width="100%" height="100%" />
+      <img src={`/discord.gif`} alt="drop" width="100%" height="100%" />
+      <img src={`/telegram.gif`} alt="drop" width="100%" height="100%" />
     </div>
     
       </div>
