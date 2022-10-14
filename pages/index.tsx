@@ -37,7 +37,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       
       {/* Top Section */}
-      <h1 className={styles.h1}>WELCOME TO
+      <h1 className={styles.rol}>WELCOME TO
 THE PIXIEVERSE NFT</h1>
       <div className={styles.nftBoxGrid}>
         <div
