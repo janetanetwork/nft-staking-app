@@ -19,7 +19,7 @@ const Home: NextPage = () => {
               </Link>
             </li>
             <li className="inline ml-5 mt-5">
-              <Link href="https://www.instagram.com/realstealthninja/">
+              <Link href="https://www.instagram.com/realstealthninja">
               
               </Link>
             </li>
