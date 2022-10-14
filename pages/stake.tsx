@@ -138,7 +138,7 @@ const Stake: NextPage = () => {
     </div>
     
       <div className={styles.container}>
-      <h1 className={styles.h1}>Stake Your NFTs</h1>
+      <img src={`/stake.png`} alt="drop" width="100%" height="100%" />
 
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
 
