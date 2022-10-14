@@ -29,7 +29,7 @@ const Home: NextPage = () => {
               </Link>
             </li>
             <li className="inline-block ml-5 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
-              <Link href="/">home</Link>
+              <Link href="/index">home</Link>
             </li>
             <li className="inline-block ml-2 mt-2 text-white bg-black opacity-20 pl-5 pr-5 pb-2 pt-2 rounded-xl">
               <Link href="/mint">Mint</Link>
