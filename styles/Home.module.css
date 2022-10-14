@@ -3,7 +3,9 @@
   top: 5%;
   left: 5%;
 }
-
+.roll {
+  display: flex;  
+}
 .btn {
   background-color: var(--tw-color1);
   outline: none;
