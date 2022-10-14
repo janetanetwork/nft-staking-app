@@ -126,11 +126,10 @@ const Stake: NextPage = () => {
             <li>
               <Link href="/stake"><a>Stake</a></Link>
             </li>
-            <li>
-              <Link href="/stake"><a>Roadmap</a></Link>
+            <Link href="/#road"><a>Roadmap</a></Link>
             </li>
             <li>
-              <Link href="/stake"><a>Social</a></Link>
+              <Link href="/#social"><a>Social</a></Link>
             </li>
           </ul>
         </nav>
