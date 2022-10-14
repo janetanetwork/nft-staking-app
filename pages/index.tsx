@@ -37,9 +37,9 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <section>
       <img src={`/icons/drop.webp`} alt="drop" />
-      <div className={styles.box-text}>
-        <h2 className={styles.text-xl}>About Pixieverse NFT</h2>
-        <p className={styles.text-md}>
+      <div className={styles.text}>
+        <h2 className={styles.xl}>About Pixieverse NFT</h2>
+        <p className={styles.textm}>
           10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain. The project that inspired the modern CryptoArt movement.
         </p>
         
