@@ -47,6 +47,7 @@ const Mint: NextPage = () => {
             <li>
               <Link href="/stake"><a>Stake</a></Link>
             </li>
+            <li>
              <Link href="/#road"><a>Roadmap</a></Link>
             </li>
             <li>
