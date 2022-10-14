@@ -516,7 +516,9 @@
   gap: 16px;
 }
 .rol{
- font-family: "Comic Sans MS", "Comic Sans", cursive;
+ 
+ font-family: 'ELEGANT', sans-serif;
+                                                
 }
 
 .tokenLabel {
