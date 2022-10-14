@@ -27,6 +27,10 @@ const Home: NextPage = () => {
             <li>
               <Link href="/stake"><a>Stake</a></Link>
             </li>
+            <li>
+              <Link href="/stake"><a>Stake</a></Link>
+              <a> <img src={`/discord.svg`} alt="drop" width="50%" height="50%" /></a>
+            </li>
           </ul>
         </nav>
  
