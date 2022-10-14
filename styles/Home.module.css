@@ -16,6 +16,35 @@
     color: edf0f1;
     text-decoration: none;
 }
+
+/* Text Styling */
+.text-center {
+  text-align: center;
+}
+
+.xl {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.textm {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-sm {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
  
 .logo
 {
