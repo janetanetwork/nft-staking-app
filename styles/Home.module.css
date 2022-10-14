@@ -3,14 +3,29 @@
   top: 5%;
   left: 5%;
 }
-.roll {
-  display: flex;  
+roll {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
 }
-.roll > li {  
-  flex: 1;  
+
+
+roll li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
 }
-.container > li >a {  
-  text-decoration: none;  
+
+roll a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+roll a:hover {
+    color: #b2dfdb;
 }
 .btn {
   background-color: var(--tw-color1);
