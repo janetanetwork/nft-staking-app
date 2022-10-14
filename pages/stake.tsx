@@ -108,6 +108,29 @@ const Stake: NextPage = () => {
   }
 
   return (
+    <div>
+       <div className={styles.header}>
+ 
+         <h1 className={styles.logo}>Pixieverse</h1>
+ 
+        <nav>
+          <ul className={styles.nav__links}>
+            <li>
+              
+              <Link href="/"><a>home</a></Link>
+            </li>
+            <li>
+              <Link href="/mint"><a>Mint</a></Link>
+            </li>
+            <li>
+              <Link href="/stake"><a>Stake</a></Link>
+            </li>
+          </ul>
+        </nav>
+ 
+        
+ 
+    </div>
     <div className={styles.container}>
       <div
           className={styles.optionSelectBoxs}
@@ -204,6 +227,7 @@ const Stake: NextPage = () => {
         </>
       )}
     </div>
+      </div>
   );
 };
 
