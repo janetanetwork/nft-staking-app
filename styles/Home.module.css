@@ -6,6 +6,12 @@
 .roll {
   display: flex;  
 }
+.roll > li {  
+  flex: 1;  
+}
+.container > li >a {  
+  text-decoration: none;  
+}
 .btn {
   background-color: var(--tw-color1);
   outline: none;
