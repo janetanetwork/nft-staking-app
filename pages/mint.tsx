@@ -1,6 +1,7 @@
 import { useAddress, useMetamask, useNFTDrop } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Mint: NextPage = () => {
@@ -29,6 +30,29 @@ const Mint: NextPage = () => {
   }
 
   return (
+    <div><div>
+       <div className={styles.header}>
+ 
+         <h1 className={styles.logo}>Pixieverse</h1>
+ 
+        <nav>
+          <ul className={styles.nav__links}>
+            <li>
+              
+              <Link href="/"><a>home</a></Link>
+            </li>
+            <li>
+              <Link href="/mint"><a>Mint</a></Link>
+            </li>
+            <li>
+              <Link href="/stake"><a>Stake</a></Link>
+            </li>
+          </ul>
+        </nav>
+ 
+        
+ 
+    </div>
     <div className={styles.container}>
       <div
           className={styles.optionSelectBoxs}
@@ -74,6 +98,7 @@ const Mint: NextPage = () => {
         </button>
       )}
     </div>
+      </div>
   );
 };
 
