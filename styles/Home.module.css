@@ -627,3 +627,15 @@
 .noGapBottom {
   margin-bottom: 0px;
 }
+@media all and (max-width: 600px) {
+  .header ul {
+    flex-direction: column;
+  }
+  .header ul li {
+    text-align: center;
+   font-size: 10px;
+  }
+ .logo{
+  display : none;
+ }
+}
