@@ -35,7 +35,16 @@ const Home: NextPage = () => {
     </div>
                    
     <div className={styles.container}>
-      
+      <section class="box box-b bg-secondary grid-col-2">
+      <img src={`/icons/drop.webp`} alt="drop" />
+      <div class="box-text">
+        <h2 class="text-xl">About Pixieverse NFT Collection</h2>
+        <p class="text-md">
+          10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain. The project that inspired the modern CryptoArt movement.
+        </p>
+        
+      </div>
+    </section>
       {/* Top Section */}
       <h1 className={styles.rol}>WELCOME TO
 THE PIXIEVERSE NFT</h1>
