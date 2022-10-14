@@ -3,7 +3,7 @@
   top: 5%;
   left: 5%;
 }
-roll {
+.roll {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -12,19 +12,19 @@ roll {
 }
 
 
-roll li {
+.roll li {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
 }
 
-roll a {
+.roll a {
     text-decoration: none;
     color: #555;
     transition: all 0.3s ease 0s;
 }
 
-roll a:hover {
+.roll a:hover {
     color: #b2dfdb;
 }
 .btn {
