@@ -11,8 +11,12 @@ const Home: NextPage = () => {
 
   return (
     <div>
-       <div>
-          <ul className={styles.roll} >
+       <header>
+ 
+         <h1 className={styles.logo}>Pixieverse</h1>
+ 
+        <nav>
+          <ul className={styles.nav__links}>
             <li>
               <Link href="/"><a>home</a></Link>
             </li>
@@ -23,7 +27,11 @@ const Home: NextPage = () => {
               <Link href="/stake"><a>Stake</a></Link>
             </li>
           </ul>
-        </div>
+        </nav>
+ 
+        
+ 
+    </header>
                    
     <div className={styles.container}>
       
